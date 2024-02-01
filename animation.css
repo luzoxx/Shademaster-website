@@ -1,0 +1,44 @@
+
+
+@keyframes appear {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes appear1 {
+    0% {
+        transform: translateY(25%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes length {
+    0% {
+        height: 0;
+        opacity: 0.3;
+    }
+    100% {
+        height: 800px;
+        opacity: 1;
+    }
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.animate {
+    animation: appear1 1s ease-out; 
+}
+

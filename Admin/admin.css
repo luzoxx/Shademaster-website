@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    width: 100%;
+    height: 100px;
+}
+
+.feature{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.feature h3{
+    display: inline-block;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-left: 150px;
+    font-weight: normal;
+}
+
+.feature a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: rgb(106, 160, 207);
+}
+
+.tieude{
+    display: inline-block;
+    padding: 30px;
+    padding-left: 200px;
+    text-transform: uppercase;
+}
+
+#page1{
+    width: 20%;
+    height: 610px;
+    margin-top: 30px;
+    background: rebeccapurple;
+    float: left;
+    margin-left: 5%;
+}
+
+.func{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(21, 130, 186);
+    float: left;
+}
+
+#toggle_sidebar0{
+    display: none;
+}
+#toggle_sidebar{
+    display: none;
+}
+#toggle_sidebar1{
+    display: none;
+}
+#toggle_sidebar2{
+    display: none;
+}
+.sidebar{
+    display: none;
+}
+.sidebar0{
+    display: none;
+}
+.sidebar1{
+    display: none;
+}
+.sidebar2{
+    display: none;
+}
+#toggle_sidebar0:checked ~.sidebar0{
+    display: block;
+}
+#toggle_sidebar:checked ~.sidebar{
+    display: block;
+}
+#toggle_sidebar1:checked ~.sidebar1{
+    display: block;
+}
+#toggle_sidebar2:checked ~.sidebar2{
+    display: block;
+}
+
+.tab-item a{ 
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* ----page 2 -----------*/
+#page2{
+    width: 70%;
+    height: 610px;
+    float: right;
+    margin-top: 30px;
+}
+.tab-item{ 
+    list-style: none;
+    padding-left: 30px;
+    background: rgb(73, 80, 90);
+    border-bottom: 1px solid rgb(80, 85, 93);
+    padding: 10px 30px;
+   
+}
+ li.tab-item:hover{ 
+   background-color: rgb(22, 130, 186);
+   
+}
+
+
+
+label{
+    cursor: pointer ;
+    display: block;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid black;
+    padding: 10px 30px;
+}
+
+#list-quanly{
+    width: 100%;
+    height: 35%;
+}
+
+.quanly{
+    width: 20%;
+    height: 100px;
+    border-bottom: 5px solid white;
+    border-right:5px solid white ;
+    float: left;
+}
+
+.quanly h3{
+    padding: 30px 0px 0px 50px;
+    font-size: 14px;
+    color: white;
+}
+
+.quanly a{
+    text-decoration: none;
+}
+.quanly i{
+    padding: 10px;
+    color: white;
+}
+
+#quanlysp{
+    width: 100%;
+    height: 610px;
+}
+
+#quanlysp h4{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background: rgb(0, 104, 201);
+    color: white;
+}
+#quanlysp h3{
+    font-size: 20px;
+    color: rgb(0, 99, 199) ;
+}
+
+.tbl-main{
+    width: 100%;
+}
+
+.tr1{
+    width: 100%;
+    height: 20px;
+    background: rgb(0, 110, 203);
+    text-align: center;
+    color: white;
+}
+
+tr{
+    text-align: center;
+}
+
+.tbl-main * {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+/* #quanlysp{
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+  } */
+
+  .del {
+    cursor: pointer;
+  }
+  .edit {
+    cursor: pointer;
+  }
+
+  .name-product , .id-product {
+    position: relative;
+  }
+
+  .name-product span ,
+  .id-product span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+  }
+
+  .name-product .change-name ,
+  .id-product .change-id{
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    width: auto;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+
+  .id-product .change-id {
+    width: 100px;
+  }

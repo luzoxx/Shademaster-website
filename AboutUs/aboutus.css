@@ -1,0 +1,144 @@
+
+p {
+    font-size: 17px;
+    font-family: "overpass",sans-serif;
+    color: #545759;
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(Sky.jpg)  no-repeat;
+    background-size: 130%;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    position: re;
+}
+
+.wrapper1__box {
+    width: 400px;
+    height: 400px;
+    color: #fff;
+}
+
+.wrapper1__box-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0.9;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer
+}
+
+.wrapper1__box-content {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.wrapper1_scroll {
+    position: absolute;
+    background-color: #8FB3C7;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.wrapper1_scroll .fa-chevron-down {
+    font-size: 20px;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+.wrapper2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper2-content {
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(227,228,229,.5);
+}
+
+.wrapper2-content p{
+    padding-top: 80px;
+    margin: auto;
+    width: 640px;
+    font-size: 30px;
+    color: #929496;
+    text-align: center;
+    font-weight: 700;
+}
+
+.space {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.video-ab {
+    position: absolute;
+    bottom: 20px;
+    left: 320px;
+}
+#video {
+    width: 830px;
+    height: 355px;
+}
+
+.wrapper3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #F1F1F2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row1 {
+    width: 680px;
+    height: 170px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.wrapper3-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.25;
+    color: #545759;
+    margin-bottom: 40px;
+}
+
+.row2 {
+    margin-top: 20px;
+}
+.wrapper3__col {
+    display: flex;
+    gap: 80px;
+}
+
+.col-1,
+.col-2 {
+    width: 340px;
+}
+
+.col-title {
+    color: #545759;
+    text-transform: uppercase;
+    font-family: "quicksand",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.col-content {
+    margin-bottom: 15px;
+}

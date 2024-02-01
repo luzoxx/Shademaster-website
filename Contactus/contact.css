@@ -1,0 +1,26 @@
+.bg-1 {
+    margin-top: 80px;
+    height: 435px;
+    width: 100%;
+    background-color: #7CA5BA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-1_box {
+    text-align: center;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.bg-1-title {
+    font-size: 58px;
+    font-weight: 700;
+    padding-bottom: 35px;
+    color: #fff;
+}
+p {
+    color: #fff;
+    font-size: 20px;
+}
